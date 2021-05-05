@@ -24,7 +24,7 @@
           var amount = document.getElementById("amount");
           var interest_rate   = document.getElementById("interest_rate");
           var number_of_years   = document.getElementById("number_of_years");
-          var calculation_interest = amount.value * ((1 + interest_rate.value/100) ^ number_of_years.value - 1);
+          var calculation_interest = amount.value * (Math.pow(1 + interest_rate.value/100, number_of_years.value) - 1);
           alert(calculation_interest)
          //document.write(calculation_interest.value);
        }
