@@ -10,6 +10,11 @@
                 amount.focus();
                 return false;
           }
+          if(amount.value < 0){
+                alert("Please enter a positive amount");
+                amount.focus();
+                return false;
+          }
          //Check if email field is empty
           if(interest_rate.value == ""){
                 alert("Please enter the interest rate");
