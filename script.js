@@ -16,6 +16,11 @@
                 interest_rate.focus();
                 return false;
           }
+          if(interest_rate.value <= 0){
+                alert("Please enter a positive interest rate");
+                interest_rate.focus();
+                return false;
+          }
          //If all is well return true.
          //alert("Form validation is successful.")
           return true;
