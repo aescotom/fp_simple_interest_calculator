@@ -10,7 +10,7 @@
                 amount.focus();
                 return false;
           }
-          if(amount.value < 0){
+          if(amount.value <= 0){
                 alert("Please enter a positive amount");
                 amount.focus();
                 return false;
