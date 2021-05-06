@@ -1,4 +1,13 @@
-body {background-color:white; font-family: Arial;}
+body {background-color:black; font-family: Arial;}
 h1{color:gray; font-family: Arial;}
-
-
+div {
+  border-radius: 25px;
+  background-color: white;
+  width: 500px;
+  border: 1px solid black;
+  padding: 60px;
+  margin: auto;
+}
+form {
+  margin: 40px;
+}
